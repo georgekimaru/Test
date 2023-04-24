@@ -19,7 +19,7 @@ from django.urls import path
 
 from django.contrib.auth import views as auth_views
 
-from beipoa.views import IndexView
+from accounts.views import IndexView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
