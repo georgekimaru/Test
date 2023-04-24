@@ -7,13 +7,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="{% static "css/pico/pico.min.css" %}">
+  <link rel="stylesheet" href="{% static "css/base.css" %}">
+  <link rel="stylesheet" href="{% static "css/index.css" %}">
   <title>BeiPoa!</title>
   {% block header %}
   {% endblock %}
 </head>
 <body>
   <header class="container">
-    <h1>Welcome to BeiPoa!</h1>
+    <a href="/""/"><h1>Welcome to BeiPoa!</h1></a>
   </header>
   <main class="container">
     {% block container %}
